@@ -77,7 +77,7 @@ public class AddCourseActivity extends AppCompatActivity {
                      */
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
-                        //now from here we are the data in the firebase.
+                        //now from here we are the data in the firebase
                         /*
                         the database reference will now take the value within child parameter
                         to have the course id whose value will be taken using .setValue()
